@@ -6,3 +6,26 @@ body {
   text-align: center;
   margin: auto;
 }
+
+
+.videoElement
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.videoContainer
+{
+  margin: 0 auto;
+  max-width: 800px;
+ 
+}
+
+
+  
+  @media screen and (max-width: 400px)  
+  {
+   .videoThumbnail{ 
+      display: none;
+   }
+  }
